@@ -2,7 +2,7 @@
 
 - Lapis, Papyrus & Scalpellus is a simple game that is latin for Rock, Paper, Scizzors.
 
-![Start Screen](/images/game.png)
+![Start Screen](game.png)
 
 ## Technologies Used
 
