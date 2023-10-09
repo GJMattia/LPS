@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Lapis, Papyrus, Scalpellus</title>
+  </head>
+  <body>
+    <div class="gameDiv">
+      <h1 class="gameName">Lapis, Papyrus & Scalpellus</h1>
+
+      <ul class="gameModeNav">
+        <li id="oneDone" class="setting oneDone">One and Done</li>
+        <li id="twoThree" class="setting twoThree">Two out of Three</li>
+        <li id="threeFive" class="setting threeFive">Three out of Five</li>
+      </ul>
+      <div class="player human">
+        <h1 class="playerTitle playerOne">You</h1>
+        <button id="lapis" class="gameBtn playerBtn">Lapis</button>
+        <button id="papyrus" class="gameBtn playerBtn">Papyrus</button>
+        <button id="scalpellus" class="gameBtn playerBtn">Scalpellus</button>
+        <h1 class="points playerOne" id="playerPoints">Rounds Won: 0</h1>
+      </div>
+      <div class="player computer">
+        <h1 class="playerTitle playerTwo">Computer</h1>
+        <button id="computerLapis" class="gameBtn computerBtn">Lapis</button>
+        <button id="computerPapyrus" class="gameBtn computerBtn">
+          Papyrus
+        </button>
+        <button id="computerScalpellus" class="gameBtn computerBtn">
+          Scalpellus
+        </button>
+        <h1 class="points playerTwo" id="computerPoints">Rounds Won: 0</h1>
+      </div>
+      <button id="shootBtn" class="shootBtn">Shoot!</button>
+      <div class="result" id="result">
+        Welcome to Lapis, Papyrus & Scalpellus! <br />Please select how many
+        games you want to play!
+      </div>
+    </div>
+    <script src="program.js"></script>
+  </body>
+</html>
